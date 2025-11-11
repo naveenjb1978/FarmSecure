@@ -65,5 +65,5 @@ Be professional and engaging, as if talking to a potential client \
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
+    gr.ChatInterface(me.chat, type="messages").launch(server_name="0.0.0.0", server_port=7860)
     
